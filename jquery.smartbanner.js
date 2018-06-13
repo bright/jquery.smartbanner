@@ -9,7 +9,7 @@
   } else {
     factory(root.jQuery);
   }
-})(this, function($) {
+})(window, function($) {
   var UA = navigator.userAgent;
   var isEdge = /Edge/i.test(UA);
 
